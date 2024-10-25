@@ -1,0 +1,174 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+
+.login-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    background-color: #FEFEFE;
+    padding: 20px;
+    gap: 15px;
+    height: 425px;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+}
+
+.left-side input{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 10px;
+    outline: none;
+    width: 250px;
+}
+
+.left-side button{
+    background-color: #608FEA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.left-side a{
+    color: #3F86F2;
+}
+
+.orLogin{
+    color: #838181;
+    font-size: 18px;
+}
+
+.left-side img{
+    width: 30px;
+}
+
+.left-side h2, p{
+    text-align: center;
+}
+
+.login-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(#1CBCB2 ,#0767AD);
+    padding: 20px;
+    gap: 10px;
+    height: 425px;
+    width: 270px;
+    border-radius: 0 10px 10px 0;
+    font-size: 20px;
+    color: white;
+}
+
+.login-h2{
+    font-size: 19px;
+}
+
+.judul-login{
+    font-size: 25px;
+}
+
+.sle{
+    color: #4E7FFF;
+}
+
+.bry{
+    color: #1225D0;
+}
+
+.email-icon{
+    position: relative;
+    width: 300px;
+}
+
+.email-icon img {
+    position: absolute;
+    left: 10px;
+    top: 55%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+
+  .email-icon input {
+    padding: 10px 5px 5px 40px; /* Ruang untuk gambar */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  
+
+
+
+  .pass-icon{
+    position: relative;
+    width: 300px;
+}
+
+.pass-icon .lock {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+  }
+
+  .pass-icon .view {
+    position: absolute;
+    left: 87%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+  }
+
+  .pass-icon .hide {
+    position: absolute;
+    left: 87%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    display: none;
+  }
+
+  .pass-icon input {
+    padding: 10px 5px 5px 40px; /* Ruang untuk gambar */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+
